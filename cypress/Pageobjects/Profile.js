@@ -32,10 +32,19 @@ class Profile
                 console.log(`profile picture URL:${src}`);
              })
         });
-
-        
     }
-
+    TOSprof()
+    {
+         cy.get('.css-1dkugo')
+         .eq(0).click();
+         cy.url().should('be.have','https://lmdmax.com/termsandcondition/');
+    }
+    pripol()
+    {
+        cy.get('.css-1dkugo')
+        .eq(1).click();
+        cy.url().should('be.have','https://lmdmax.com/privacypolicy/');   
+    }
 
 
 }

@@ -20,6 +20,8 @@ it('LoginTest', () => {
 
  
   const prof = new Profile()
-    prof.prof()
+    prof.prof();
+    prof.TOSprof();
+    prof.pripol();
   })
 })

@@ -53,8 +53,10 @@ it('LoginTest', () => {
   set.netemailreport();
   set.scoreemailreport();
 
-  const prof = new Profile()
-    prof.Editprof()
+  const prof = new Profile();
+    prof.prof();
+    prof.TOSprof();
+    prof.pripol();
   
   });
 });
