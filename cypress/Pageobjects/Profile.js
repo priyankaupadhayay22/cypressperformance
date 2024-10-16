@@ -32,9 +32,11 @@ class Profile
                 console.log(`profile picture URL:${src}`);
              })
         });
+
+        
     }
 
-    
+
 
 }
 export default Profile;
